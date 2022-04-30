@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid rgb(226, 226, 226);
+  margin-top: 40px;
+  padding: 0px 30px 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: lightblue;
+}
+h1{
+  color: darkcyan;
+ 
+}
+
+button {
+  margin: 0px 15px;
+  border-radius: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  color: black;
+  background-color: darkcyan;
+  font-size: 1.1em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  margin: 60px;
+  font-size: 3em;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

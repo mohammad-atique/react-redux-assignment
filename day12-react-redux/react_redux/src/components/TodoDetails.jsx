@@ -42,7 +42,7 @@ export default function SingleTodo() {
                ></input>
                <div>
                   <h2>Todo: {todo[0].title}</h2>
-                  <h2>Status: {todo[0].status ? "Complete" : "Incomplete"}</h2>
+                  <h2>Status: {todo[0].status ? "Completed" : "Not Completed"}</h2>
                </div>
                <button className="detailBtn" onClick={() => handleDeletion(id)}>
                   Delete

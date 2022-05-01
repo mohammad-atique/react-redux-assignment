@@ -1,0 +1,126 @@
+.todo {
+   background-color: white;
+   width: 40%;
+   margin: auto;
+   margin-top: 90px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid black;
+   padding: 0px 15px 10px;
+}
+
+h1 {
+   color: rgb(0, 0, 0);
+   font-family: sans-serif;
+}
+
+.list {
+   height: 100%;
+   margin-top: 10px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.allT {
+   height: auto;
+   overflow-y: scroll;
+   overflow-block: hidden;
+   border: 1px solid black;
+}
+
+.list2 {
+   height: auto;
+   overflow-y: scroll;
+   border: 1px solid black;
+}
+
+.btn2 {
+   margin-top: 0px;
+   margin-bottom: 10px;
+   color: black;
+   background-color: green;
+   border-radius: 5px;
+   height: auto;
+   padding-left: 7px;
+   cursor: pointer;
+   border: 1px solid black;
+}
+
+.btn3 {
+   cursor: pointer;
+   color: black;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: auto;
+   height: 25px;
+   float: right;
+   margin-right: 10px;
+   background-color: green;
+   border-radius: 5px;
+   border: 1px solid black;
+}
+
+.lower {
+   width: 100%;
+   border: 1px solid black;
+}
+
+.input {
+   width: 81%;
+   color: black;
+   height: 40px;
+   margin-right: 5px;
+   padding-left: 7px;
+   font-size: 1.1em;
+}
+
+.btn1 {
+   width: auto;
+   height: 42px;
+   background-color:green;
+   border-radius: 5px;
+   font-size: 1.1em;
+   cursor: pointer;
+   color: black;
+   border: 1px solid black;
+}
+
+.item {
+   margin-bottom: 5px;
+   height: 50px;
+   padding-left: 7px;
+   line-height: 50px;
+   font-size: 1.2em;
+   margin-right: 7px;
+   color: black;
+   border: 1px solid black;
+}
+
+.listText {
+   text-decoration: none;
+   color: black;
+   border: 1px solid black;
+}
+
+.itemChecked {
+   margin-bottom: 5px;
+   height: 50px;
+   padding-left: 7px;
+   line-height: 50px;
+   font-size: 1.2em;
+   margin-right: 7px;
+   color: black;
+   text-decoration: line-through;
+   border: 1px solid black;
+}
+
+.check {
+   width: 17px;
+   height: 17px;
+   cursor: pointer;
+   margin-right: 5px;
+}
